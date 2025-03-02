@@ -3,7 +3,7 @@
     "name": "ytAnalysis",
     "slug": "ytAnalysis",
     "version": "1.0.0",
-
+    "newArchEnabled": true,
     "scheme": "ytAnalysis",
     "web": {
       "bundler": "metro",
