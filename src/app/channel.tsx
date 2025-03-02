@@ -37,7 +37,9 @@ const dummyChannel = {
 
 const Channel = () => {
   return (
-    <ScrollView className='flex-1 bg-slate-700' >
+    <ScrollView
+    bounces={false}
+     className='flex-1 bg-slate-700' >
       <Stack.Screen name={dummyChannel.name} options={{headerShown: false}} />
         <Image source={{ uri: dummyChannel.banner_img }} className='h-40 w-full' />
 
@@ -57,7 +59,7 @@ const Channel = () => {
         </View>
 
         <View className='p-4 bg-slate-800 rounded-lg mx-2'>
-          <Text className='text-xl font-semibold text-slate-200 mb-4'>Channel Details</Text>
+          <Text className='text-xl font-semibold text-slate-200 mb-4'>Details</Text>
           <View className='gap-3'>
             <View className='flex-row items-center'>
               <Entypo name="location-pin" size={18} color="#cbd5e1" />
